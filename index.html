@@ -8,8 +8,154 @@
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
             <link rel="icon" href="images\photos\favicon-16x16.ico" type="image/x-icon">
             
-            <link rel="stylesheet" src="index.css">
+
             <title>Project</title>
+            <style>
+                * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.4;
+}
+
+
+/* Фоновая секция с изображением */
+.hero-section {
+    background-image: url("/images/background/Rectangle3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.top-info {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-text {
+    text-align: left;
+    margin-left: -690px;
+    margin-top: -20px;
+}
+
+
+.center-text {
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.right-text {
+    text-align: right;
+    margin-right: -650px;
+    margin-top: -20px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Шапка с названием */
+.header {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 65px;
+    opacity: 1.0;
+    margin: -15px;
+}
+
+
+.valentina {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    margin-left: 50px;
+}
+
+
+.valentina h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0;
+    white-space: nowrap;
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.info-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+    padding-top: 10px;
+}
+
+
+.info-item {
+    padding: 5px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+
+.guest-house {
+    text-align: center;
+}
+
+
+.guest-house h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin: 0;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        min-height: auto;
+        text-align: center;
+    }
+
+
+    .valentina {
+        position: relative;
+        left: auto;
+        margin-bottom: 20px;
+    }
+            </style>
         </head>
          <body>
             <!-- Секция с фоновым изображением и формой -->
@@ -124,6 +270,7 @@
                     </script>
                 </body>
     </html>
+
 
 
 
